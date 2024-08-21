@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@components/*": [
+                "src/common/components/*"
+            ],
+            "@styles/*": [
+                "src/common/styles/*"
+            ],
+            "@contexts/*": [
+                "src/common/contexts/*"
+            ],
+            "@constants/*": [
+                "src/constants/*"
+            ],
+            "@modules/*": [
+                "src/modules/*"
+            ],
+            "@navigation/*": [
+                "src/navigation/*"
+            ],
+            "@queries/*": [
+                "src/queries/*"
+            ],
+            "@services/*": [
+                "src/services/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ],
+        }
+    },
+    "include": [
+        "src"
+    ]
+}
